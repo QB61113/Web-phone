@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>硬件</title>
+		<link rel="stylesheet" href="./css/硬件.css"/>
+		<style>
+			.c2{
+				font-size: 30px;
+				text-align: right;
+			}
+			.c3{
+				font-size: 20px;
+				text-align: right;
+			}
+			.c4{
+				font-size: 15px;
+			}
+			#animation{
+				-webkit-animation:swing 1s .2s ease both;
+				-moz-animation:swing 1s .2s ease both;}
+				@-webkit-keyframes swing{
+					20%,40%,60%,80%,100%{-webkit-transform-origin:top center}
+					20%{-webkit-transform:rotate(15deg)}
+					40%{-webkit-transform:rotate(-10deg)}
+					60%{-webkit-transform:rotate(5deg)}
+					80%{-webkit-transform:rotate(-5deg)}
+					100%{-webkit-transform:rotate(0deg)}}
+					@-moz-keyframes swing{
+						20%,40%,60%,80%,100%{
+							-moz-transform-origin:top center}
+							20%{-moz-transform:rotate(15deg)}
+							40%{-moz-transform:rotate(-10deg)}
+							60%{-moz-transform:rotate(5deg)}
+							80%{-moz-transform:rotate(-5deg)}
+							100%{-moz-transform:rotate(0deg)}
+							}
+							#animation1{
+							-webkit-animation:rotateIn 1s .2s ease both;
+							-moz-animation:rotateIn 1s .2s ease both;}
+							@-webkit-keyframes rotateIn{
+							0%{-webkit-transform-origin:center center;
+							-webkit-transform:rotate(-200deg);
+							opacity:0}
+							100%{-webkit-transform-origin:center center;
+							-webkit-transform:rotate(0);
+							opacity:1}
+							}
+							@-moz-keyframes rotateIn{
+							0%{-moz-transform-origin:center center;
+							-moz-transform:rotate(-200deg);
+							opacity:0}
+							100%{-moz-transform-origin:center center;
+							-moz-transform:rotate(0);
+							opacity:1}
+							}
+							#animation3{
+							-webkit-animation:flash 1s .2s ease both;
+							-moz-animation:flash 1s .2s ease both;}
+							@-webkit-keyframes flash{
+							0%,50%,100%{opacity: 1;}
+							25%,75%{opacity: 0;}
+							}
+							@-moz-keyframes flash{
+							0%,50%,100%{opacity: 1;}
+							25%,75%{opacity: 0;}
+							}
+		</style>
+	</head>
+	<body>
+		<div style="background-color: #979797;">
+		<br /> <br />
+		&nbsp &nbsp &nbsp &nbsp &nbsp 
+		<a href="index.html">
+			<font class="first">OPPO</font>
+		</a>
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		 
+		<a href="手机.html"><font class="seventh">手机</font></a>
+		&nbsp &nbsp &nbsp &nbsp 
+		<a href="硬件.html"><font class="second">硬件</font></a>
+		&nbsp &nbsp &nbsp &nbsp 
+		<a href="OPPO百科.html"><font class="forth">OPPO百科</font></a>
+		&nbsp &nbsp &nbsp &nbsp 
+		<a href="ColorOS.html"><font class="fifth">ColorOS</font></a>
+		&nbsp &nbsp &nbsp
+		<input type="text" name="userName" placeholder="在这里输入你想搜索的内容" size="20px" maxlength="6"
+			required="required" /><input type="submit" value="搜索" /> &nbsp
+		&nbsp &nbsp &nbsp &nbsp
+				<a href="登录注册.html">
+					<input type="button" class="btn-success" value="注册/登录" />
+				</a>
+				<a href="联系我们.html"><span class="glyphicon glyphicon-envelope " aria-hidden="true "></span> &nbsp <font color="#ffffff">联系我们 </font>
+				</a> 
+				<br /><br />
+				</div>
+		<div id="animation">
+			<img src="img/OPPO%20手表.png" width="50%" align="left"/>
+			<br /><br /><br /><br /><br />
+			<font class="c2">OPPO Watch 46mm 曜黑</font>
+			<br /><br />
+			<font class="c3">★ eSIM独立通信</font>
+			<br /><br />
+			<font class="c3">★ 双引擎动力续航</font>
+			<br /><br />
+			<font class="c3">★ ColorOS Watch系统</font>
+			<br /><br />
+			<font class="c3">★ Watch VOOC闪充</font>
+		</div>
+		<br /><br />
+		<div id="animation1">
+			<img src="img/手表2.jpg" width="50%" align="left"/>
+		</div>
+		<br /><br />
+		<div>
+			&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp 
+			  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp 
+			   &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp 
+			    &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp
+				 &nbsp   &nbsp  
+			<font class="c3">★ 支持NFC支付功能</font> <font class="c4">————手机秒变交通卡</font>
+		</div>
+		<br /><br />
+		<div id="animation3">
+			<img src="img/手表3.jpg" width="50%" align="left"/>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<font class="c3">★ 支持Breeno语音功能</font>
+		</div>
+		<div></div>
+		<br /><br /><br /><br /><br />
+	</body>
+</html>
